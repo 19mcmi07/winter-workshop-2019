@@ -29,5 +29,22 @@
         \end{equation}
     \section{Table}
         Below is the table that was given in assignment.
-
+    \begin{table}[h!]
+        \begin{tabular}{|l|l|l|l|l|l|l|}
+        \hline
+        \hline
+        \multicolumn{1}{|c|}{CLASS} & \multicolumn{2}{c|}{TP}       & \multicolumn{2}{c|}{Precision} & \multicolumn{2}{c|}{ROC}      \\
+                                    & \alpha-1           & \alpha-2           & \alpha-1            & \alpha-2           & \alpha-1           & \alpha-2           \\
+                                    \hline\hline
+        class 1                     & 0.66          & 1.0           & 1.0            & 0.66          & 0.93          & 0.93          \\
+        class 2                     & 0.93          & 0.7           & 0.82           & 0.87          & 0.81          & 0.85          \\
+        class 3                     & 0.66          & 1.0           & 1.0            & 0.66          & 0.93          & 0.93          \\
+        class 4                     & 1.0           & 1.0           & 1.0            & 1.0           & 1.0           & 1.0           \\
+        class 5                     & 0.80          & 1.0           & 1.0            & 0.76          & 1.0           & 1.0           \\
+        \textbf{Average}            & \textbf{0.81} & \textbf{0.94} & \textbf{0.96}  & \textbf{0.79} & \textbf{0.93} & \textbf{0.93}\\\hline\hline
+        
+        \end{tabular}
+        \caption{Classification Results of a given Protein as belonging to fold $\alpha-1$ and fold $\alpha-2$}
+        \label{tab:my-table}
+    \end{table}
 \end{document}
